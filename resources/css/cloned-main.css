@@ -1,0 +1,136 @@
+.scaleCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nonGrayScale{
+    filter: grayscale(0);
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    color: white;
+}
+.container{
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+.navChildChoose:link{
+    text-decoration: none;
+    color: white;
+}
+.navChildChoose:visited, .navChildChoose:hover, .navChildChoose:active{
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: normal;
+}
+.mainContent{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.subContent{
+    width: 100vw;
+    height: 100vh;
+}
+.subContentHeader{
+    text-align: center;
+}
+.textCenter{
+    text-align: center;
+}
+.backgroundVisible{
+    background-image: url(../img/bg.jpg);
+    filter: grayscale(0);
+    transition: 1s ease;
+}
+.parallax {
+    overflow: hidden;
+    height: 100vh;
+}
+.grayscale {
+    filter: grayscale(100); /* Change to full grayscale effect after delay */
+}
+#effect1{
+    transition: 1s ease;
+}
+#effect2{
+    transition: 1s ease;
+}
+#effect1:hover{
+    color: cyan;
+}
+#effect2:hover{
+    color: cyan;
+}
+.response-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+  }
+  .response-box2 {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,75%);
+  }
+  .response-box3 {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,220%);
+  }
+  .user-response {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+.ratingLogo{
+    border-radius: 50%;
+}
+
+.footer{
+    background-image: url(../img/bg.jpg);
+    filter: blur(1.4em);
+    height: 25vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+}
+#footerContent{
+    top: 5vh;
+    margin-left: 5vh;
+}
+.aLink:active, .aLink:visited, .aLink:hover{
+    color: white;
+    text-decoration: none;
+}

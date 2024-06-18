@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2 Production | Amayori</title>
+    <link rel="stylesheet" href="s2.css">
+    <link rel="stylesheet" href="https://codepen.io/GreenSock/pen/xxmzBrw.css">
+    <script src="./typewriter.js"></script>
+    <script src="./mobileDetector.js"></script>
+    <script>
+        function returnToHome(){
+            alert('Da co loi xay ra, dua ban tro ve trang chu...');
+            window.location.href('../home.html')
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <section style="display: none;" class="section hero"></section>
+            <section style="display: none;" class="section bg blurred"></section>
+            <div style="display: none;" class="mainContent"><h1>O2 Production <span class="normalText">by Nexon</span></h1><p>Cheaps, Efficiency, Quality, Responsibility</p></div>
+            <section class="section gradient-blue cover blurred"></section>
+            <div class="mainContentSlide2"><h1><span class="danh_chu" data-thoiGianDoi="1000" data-chu='["Media Services", "Broadcast", "Livestream", "In-Air Capture", "Photography"]'></span></h1></div>
+            <span id="fixedSector2" class="mainContentSlide2"><a onclick="returnToHome()" href="../home.html"><button>Learn more</button></a><span>   Or, contact us directly: <a href="tel:0975660601">0975660601</a></span></span>
+            <div class="brandName"><p id="brand"></p></div>
+        </div>
+        <div style="display: none;" class="image-container">
+            <img src="https://assets-global.website-files.com/63ec206c5542613e2e5aa784/643312a6bc4ac122fc4e3afa_main%20home.webp"
+                alt="image">
+        </div>
+    </div>
+</body>
+
+</html>
