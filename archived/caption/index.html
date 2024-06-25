@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caption Generator v1.0</title>
+    <link type="text/css" rel="stylesheet" href="./assets/css/main.css"/>
+    <script src="./assets/js/jscript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <select>
+                <option value="normal1">typical_1_TEST</option>
+                <option value="sponsorship" disabled>sponsorship_1</option>
+                <option value="lvn_schema1" disabled>lvn_schema_1</option>
+                <option value="linkanh1" disabled>ggphoto_link1</option>
+            </select>
+            <form>
+                <input type="text" id="caption" placeholder="mainCaption"/><br>
+                <input type="text" id="author" placeholder="author"/><br>
+                <input type="text" id="location" placeholder="locationTaken"/><br>
+                <button type="button" onclick="getDataFromField();">Submit</button>
+            </form>
+            <input type="textbox" disabled id="result" value="result"/>
+        </div>
+    </div>
+</body>
+</html>
